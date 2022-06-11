@@ -1,6 +1,6 @@
 # CCNN-CGH
 
-Code for CCNN-CGH, including captured videos, images and corresponding CGHs.
+Code and pretained model (30 loops in DIV2K dataset) for CCNN-CGH, including captured videos, images and corresponding CGHs. Using the pretained model will get the exact results in our paper. 
 
 
 1 Set up connda environment using:
