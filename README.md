@@ -3,7 +3,7 @@
 ![capture](https://user-images.githubusercontent.com/57349703/173181176-ffaf9eb5-addc-4b95-bb6d-ecd2252f09ea.png)
 
 
-Code and pretained model (30 loops in DIV2K dataset) for CCNN-CGH, including captured videos, images and corresponding CGHs. Using the pretained model will get the exact results in our paper. This is under updating.
+Code and pretained model (30 loops in DIV2K dataset) for CCNN-CGH, including captured videos, images and corresponding CGHs. Using the pretained model will get the exact results in our paper. This project is under updating.
 
 
 1. Set up conda environment using:
