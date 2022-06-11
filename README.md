@@ -1,6 +1,7 @@
 # CCNN-CGH
 
-code for CCNN-CGH
+Code for CCNN-CGH, includeing captured videos, images and corresponding CGHs.
+
 
 1 Set up connda environment using:
 
