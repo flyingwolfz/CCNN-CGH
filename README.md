@@ -1,5 +1,7 @@
 # CCNN-CGH
 
+![capture](https://user-images.githubusercontent.com/57349703/173181122-09131cc2-96e4-4934-8ad1-04b7b829a7da.png)
+
 Code and pretained model (30 loops in DIV2K dataset) for CCNN-CGH, including captured videos, images and corresponding CGHs. Using the pretained model will get the exact results in our paper. 
 
 
