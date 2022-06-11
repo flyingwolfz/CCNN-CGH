@@ -17,4 +17,4 @@ The complexPytorch for better better compatibility with complex values is from: 
 
 We use python 3.9, Pytorch 1.10. opencv is used to operate images, other libraries are not essentional to run our model.
 
-2. python code will be released soon.
+2. python code will be released soon, it includes: CCNN-CGH for 1920 1072 and 4K resolution, mini CCNN-CGH for 4K resolution, zero-padding version CCNN-CGH for 1920 1072 resolution
