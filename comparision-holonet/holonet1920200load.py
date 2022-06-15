@@ -159,10 +159,10 @@ target_amp = target_amp.cuda()
 output = model(target_amp)
 time_start=time.time()
 with torch.no_grad():
-  for k in range(10):
+  for k in range(100):
     output = model(target_amp)
 time_end=time.time()
-print('totally cost',(time_end-time_start)/10.0)
+print('totally cost',(time_end-time_start)/100.0)
 
 
 output = torch.squeeze(output)
