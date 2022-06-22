@@ -8,9 +8,13 @@ Using the pretained models will get the exact results in our paper. This reposit
 
 ## 0. Contents
 
-1, python code and pretained models (30 loops in DIV2K training dataset) for different networks 
+1, Python code and pretained models (30 loops in DIV2K training dataset) for different networks 
 
-xxxtrain.py will train corresponding network. xxxload.py will load trained model and test it on a single picture. xxxpsnrssim.py will test the trained model using 100 samples of DIV2K validation dataset.
+xxxtrain.py will train corresponding network.
+
+xxxload.py will load trained model and test it on a single picture, return average generation time, PSNR, SSIM, simulated reconstruction.
+
+xxxpsnrssim.py will test the trained model using 100 samples of DIV2K validation dataset, return average PSNR, SSIM.
 
 2,Captured results
 
@@ -38,5 +42,11 @@ HoloNet is from https://github.com/computational-imaging/neural-holography
 
 The U-Net used in HoloNet is from https://github.com/vsitzmann/pytorch_prototyping
 
-## 3. Next update
+## 3.Comparision with Holo-encoder
+
+Holo-encoder is from:https://github.com/THUHoloLab/Holo-encoder
+
+For pytorch version, refer to https://github.com/flyingwolfz/holoencoder-python-version
+
+## 4. Next update
 python code will be released soon, it will include: CCNN-CGH for 1920 1072 and 4K resolution, mini CCNN-CGH for 4K resolution, zero-padding version CCNN-CGH for 1920 1072 resolution
