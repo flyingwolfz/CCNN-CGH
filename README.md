@@ -48,5 +48,5 @@ Holo-encoder is from:https://github.com/THUHoloLab/Holo-encoder
 
 For pytorch version, refer to https://github.com/flyingwolfz/holoencoder-python-version
 
-## 4. Next update
-python code will be released soon, it will include: CCNN-CGH for 1920 1072 and 4K resolution, mini CCNN-CGH for 4K resolution, zero-padding version CCNN-CGH for 1920 1072 resolution
+## 4. Run CCNN-CGH (Next update)
+Next update t will include: CCNN-CGH for 1920 1072 and 4K resolution, mini CCNN-CGH for 4K resolution, zero-padding version CCNN-CGH for 1920 1072 resolution
