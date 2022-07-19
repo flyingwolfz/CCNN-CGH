@@ -170,9 +170,7 @@ if torch.cuda.is_available():
 c = 839
 b = '\\0' + str(c)
 imgpath = path + b + '.png'
-#imgpath ='long.png'
-#imgpath='D:\\zcl\\python\\pytorchsci\\dog\\2.jpg'
-#imgpath ='triss.png'
+
 img = cv2.imread(imgpath)
 img2 = cv2.resize(img, (1920,1072))
 gray = cv2.split(img2)[2]
