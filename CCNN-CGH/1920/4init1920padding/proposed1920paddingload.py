@@ -171,8 +171,7 @@ if torch.cuda.is_available():
 c = 879
 b = '\\0' + str(c)
 imgpath = path + b + '.png'
-#imgpath ='triss1024.png'
-#imgpath ='caigou.jpg'
+
 img = cv2.imread(imgpath)
 img2 = cv2.resize(img, (1920,1072))
 #gray = cv2.split(img2)[2]
@@ -189,14 +188,14 @@ target_amp = torch.complex(target_amp, torch.zeros_like(target_amp))
 output = model(target_amp)
 time_start=time.time()
 with torch.no_grad():
- for k in range(1):
+ for k in range(100):
   output = model(target_amp)
   holo=output/2.0/3.14159+0.5
 #holo= numpy.uint8(ab.cpu().data.numpy()*255)
 
 
 time_end=time.time()
-print('totally cost',(time_end-time_start)/1.0)
+print('totally cost',(time_end-time_start)/100.0)
 holo= numpy.uint8(holo.cpu().data.numpy()*255)
 cv2.imwrite('h.png', holo)
 grayreal = torch.cos(output)
