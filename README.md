@@ -19,7 +19,7 @@ currently state-of-the-art end-to-end CGH network (finished in 2022.2). CCNN-CGH
   <img src="https://user-images.githubusercontent.com/57349703/179686183-ea2af19b-72f4-4ee3-9a60-84cf65800137.png" alt="4k" width='35%' height='35%'/>
 </p>
 
-**paper:now under review in IEEE TVCG.(If it's useful, consider cite our paper!)**
+**paper: now under review in IEEE TVCG.(If it's useful, consider cite our paper!)**
 
 ## 0. Contents
 
