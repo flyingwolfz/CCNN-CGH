@@ -4,7 +4,7 @@
 
 **Real-time CGH using CCNN** (above result is pretrained model, zero-padding version)
 
-currently state-of-the-art end-to-end CGH network (finished in 2022.2). CCNN-CGH is the second 4K capable network and mini CCNN-CGH is the first 4K real-time network！ 
+currently state-of-the-art end-to-end CGH network (tested in 2022.2). CCNN-CGH is the second 4K capable network and mini CCNN-CGH is the first 4K real-time network！ 
 
 <p align="center">
 1920 performance
