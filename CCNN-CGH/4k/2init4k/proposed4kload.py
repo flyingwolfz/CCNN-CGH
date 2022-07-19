@@ -186,14 +186,14 @@ target_ampc = torch.complex(target_amp, torch.zeros_like(target_amp))
 output = model(target_ampc)
 time_start=time.time()
 with torch.no_grad():
- for k in range(10):
+ for k in range(100):
   output = model(target_ampc)
   holo=output/2.0/3.14159+0.5
 #holo= numpy.uint8(ab.cpu().data.numpy()*255)
 
 
 time_end=time.time()
-print('totally cost',(time_end-time_start)/10.0)
+print('totally cost',(time_end-time_start)/100.0)
 holo= numpy.uint8(holo.cpu().data.numpy()*255)
 cv2.imwrite('h.png', holo)
 grayreal = torch.cos(output)
