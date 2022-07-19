@@ -2,9 +2,11 @@
 
 ![capture](https://user-images.githubusercontent.com/57349703/173181176-ffaf9eb5-addc-4b95-bb6d-ecd2252f09ea.png)
 
-**Real-time CGH using CCNN** (above result is pretrained model, zero-padding version)
+**<p align="center">
+Real-time CGH using CCNN**
+</p>
 
-currently state-of-the-art end-to-end CGH network (tested in 2022.2). CCNN-CGH is the second 4K capable network and mini CCNN-CGH is the first 4K real-time network！ 
+currently state-of-the-art end-to-end CGH network (proposed in 2022.2, repository created in 2022.6, latest update in 2022.7). CCNN-CGH is the second 4K capable network and mini CCNN-CGH is the first 4K real-time network！ Above results are zero-padding version. The following tests run using RTX 3080.
 
 <p align="center">
 1920 performance
@@ -13,7 +15,7 @@ currently state-of-the-art end-to-end CGH network (tested in 2022.2). CCNN-CGH i
   <img src="https://user-images.githubusercontent.com/57349703/179686169-69aee351-6af7-4957-8d1e-c1535c1a2ffe.png" alt="1920" width='35%' height='35%'/>
 </p>
 <p align="center">
-4k perfomance
+4k performance
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/57349703/179686183-ea2af19b-72f4-4ee3-9a60-84cf65800137.png" alt="4k" width='35%' height='35%'/>
@@ -23,7 +25,7 @@ currently state-of-the-art end-to-end CGH network (tested in 2022.2). CCNN-CGH i
 
 ## 0. Contents
 
-- 1, Python code and pretained models (30 loops in DIV2K training dataset) for different networks 
+- 1, Python code and pretrained models (30 loops in DIV2K training dataset) for different networks 
 
   xxxtrain.py will train corresponding network.
 
@@ -47,7 +49,7 @@ pip install scipy
 pip install scikit-image
 ```             
 
-The environment has been tested in Windows 10 and Ubuntu 20.04 in 2022.7. We use python 3.9, Pytorch 1.10. opencv is used to operate images, other libraries are not essentional to run our model.
+The environment has been tested in Windows 10 and Ubuntu 20.04 in 2022.7. We use python 3.9, Pytorch 1.10. opencv is used to operate images, other libraries are not essentional to run our model. This environment also supports HoloNet, Holo-encoder.
 
 ## 2. Run CCNN-CGH 
 
@@ -75,12 +77,12 @@ Run corresponding python files. CCNN uses 4init, mini CCNN uses 2init.
 
 - Comparision with tensor holography
 
-  We run tensor holography in Ubuntu 20.04 using their pretrained model from https://github.com/liangs111/tensor_holography
+  We run tensor holography in Ubuntu 20.04 using their code and pretrained model from https://github.com/liangs111/tensor_holography
 
 ## 4.Tips
 
 - 1, It is greatly recommended to use our zero-padding version directly. Because of better quality and easier experiment.
 
-- 2, Try larger CCNN according to your GPU ability. More DS/US layers and more init channels will bring better quality.
+- 2, Try larger CCNN according to your GPU ability. Although more GPU memory is needed, more DS/US layers and more init channels will bring better quality easily.
 
 - 3, under updating......
