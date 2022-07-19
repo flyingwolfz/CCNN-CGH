@@ -170,8 +170,6 @@ if torch.cuda.is_available():
 c = 100 +739
 b = '\\0' + str(c)
 imgpath = path + b + '.png'
-#imgpath ='triss1024.png'
-#imgpath ='caigou.jpg'
 img = cv2.imread(imgpath)
 img2 = cv2.resize(img, (3840,2160))
 #gray = cv2.split(img2)[2]
