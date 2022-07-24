@@ -21,7 +21,7 @@ Currently state-of-the-art end-to-end CGH network (proposed in 2021， finished 
   <img src="https://user-images.githubusercontent.com/57349703/179686183-ea2af19b-72f4-4ee3-9a60-84cf65800137.png" alt="4k" width='35%' height='35%'/>
 </p>
 
-**paper: now under review in IEEE TVCG.(If it's useful, consider cite our paper!)**
+**paper: now under review in IEEE TVCG.(If it's useful, consider cite our paper!)(Since it has not been accepted by any journal yet, papers based on our work should wait until its acceptance.)**
 
 ## 0. Contents
 
@@ -42,7 +42,7 @@ Currently state-of-the-art end-to-end CGH network (proposed in 2021， finished 
 ```
 conda create -n ccnncgh python=3.9
 conda activate ccnncgh
-conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.3 -c pytorch
 pip install opencv-python
 pip install tqdm
 pip install scipy
