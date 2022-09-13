@@ -6,7 +6,7 @@
 Real-time CGH using CCNN**
 </p>
 
-Currently state-of-the-art end-to-end CGH network (proposed in 2021， finished in 2022.2, repository created in 2022.6, latest update in 2022.7). Compared with HoloNet and holo-encoder, we achieve the fasted speed and the best quality using compact CCNN. Moreover, CCNN-CGH is the second 4K capable network and mini CCNN-CGH is the first 4K real-time network！The following tests run using RTX 3080.
+Real-time end-to-end CGH network (proposed in 2021， finished in 2022.2, repository created in 2022.6, latest update in 2022.9). Compared with HoloNet and holo-encoder, we achieve the fasted speed and the best quality using compact CCNN. Moreover, CCNN-CGH is the second 4K capable network and mini CCNN-CGH is the first 4K real-time network！The following tests run using RTX 3080.
 
 <p align="center">
 1920 performance
@@ -21,7 +21,7 @@ Currently state-of-the-art end-to-end CGH network (proposed in 2021， finished 
   <img src="https://user-images.githubusercontent.com/57349703/179686183-ea2af19b-72f4-4ee3-9a60-84cf65800137.png" alt="4k" width='35%' height='35%'/>
 </p>
 
-**paper: now under review in IEEE TVCG.(If it's useful, consider cite our paper!)(Since it has not been accepted by any journal yet, papers based on our work should wait until its acceptance.)**
+**paper: now submitting.(If it's useful, consider cite our paper!)(Since it has not been accepted by any journal yet, papers based on our work should wait until its acceptance.)**
 
 ## 0. Contents
 
