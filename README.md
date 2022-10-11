@@ -83,8 +83,10 @@ Run corresponding python files. CCNN uses 4init, mini CCNN uses 2init.
 
 ## 4.Tips
 
-- 1, It is greatly recommended to use our zero-padding version directly. Because of better quality and easier experiment.
+- 1，Use more epoch, we use 30 in this repository. If you have enough time, change it to 300 or more, and it will increase the PSNR by around 1-2dB easily. 
 
-- 2, Try larger CCNN according to your GPU ability. Although more GPU memory is needed, more DS/US layers and more init channels will bring better quality easily. Meanwhile smaller CCNN still performes better than existing networks, reducing parameters also works if you want faster speed and lower cost.
+- 2, It is greatly recommended to use our zero-padding version directly. Because of better quality and easier experiment.
 
-- 3, under updating......
+- 3, Try larger CCNN according to your GPU ability. Although more GPU memory is needed, more DS/US layers and more init channels will bring better quality easily. Meanwhile smaller CCNN still performes better than existing networks, reducing parameters also works if you want faster speed and lower cost.
+
+- 4, under updating......
