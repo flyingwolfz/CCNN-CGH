@@ -83,7 +83,7 @@ Run corresponding python files. CCNN uses 4init, mini CCNN uses 2init.
 
 ## 4.Tips
 
-- 1，Use more epoch, we use 30 in this repository. If you have enough time, change it to 300 or more, and it will increase the PSNR by around 1-2dB easily. 
+- 1, Use more epoch, we use 30 in this repository. If you have enough time, change it to 300 or more, and it will increase the PSNR by around 1-2dB easily. 
 
 - 2, It is greatly recommended to use our zero-padding version directly. Because of better quality and easier experiment.
 
