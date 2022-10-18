@@ -95,4 +95,7 @@ torch.manual_seed(3407)
 
 - 3, Try larger CCNN according to your GPU ability. Although more GPU memory is needed, more DS/US layers and more init channels will bring better quality easily. Meanwhile smaller CCNN still performes better than existing networks, reducing parameters also works if you want faster speed and lower cost.
 
+- 5, some issues are fixed in "CCNN-CGH V1.5"
+
 - 4, under updating......
+
