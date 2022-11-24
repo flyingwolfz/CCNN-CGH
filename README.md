@@ -8,6 +8,8 @@ Real-time CGH using CCNN**
 
 （Update log：proposed in 2021， finished in 2022.2, repository created in 2022.6, latest update in 2022.9).
 
+A new version will be released and some issues will be fixed.
+
 Real-time end-to-end CGH network with average PSNR more than 30dB in DIV2K valitaion dataset. Compared with HoloNet and holo-encoder, we achieve the fasted speed and the best quality using compact CCNN. Moreover, CCNN-CGH is the second 4K capable network and mini CCNN-CGH is the first 4K real-time network！The following tests run using RTX 3080.
  
 <p align="center">
@@ -95,7 +97,5 @@ torch.manual_seed(3407)
 
 - 3, Try larger CCNN according to your GPU ability. Although more GPU memory is needed, more DS/US layers and more init channels will bring better quality easily. Meanwhile smaller CCNN still performes better than existing networks, reducing parameters also works if you want faster speed and lower cost.
 
-- 4, some issues are fixed in "CCNN-CGH V1.5"
-
-- 5, under updating......
+- 4, under updating......
 
