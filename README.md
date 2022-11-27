@@ -3,7 +3,7 @@
 ![capture](https://user-images.githubusercontent.com/57349703/173181176-ffaf9eb5-addc-4b95-bb6d-ecd2252f09ea.png)
 
 **<p align="center">
-Real-time CGH using CCNN**
+Real-time CGH using CCNN (zero-passing version)**
 </p>
 
 （Update log：proposed in 2021， finished in 2022.2, repository created in 2022.6, latest update in 2022.9).
