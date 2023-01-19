@@ -6,8 +6,6 @@
 Real-time CGH using CCNN (zero-padding version)**
 </p>
 
-（Update log：proposed in 2021， finished in 2022.2, repository created in 2022.6, latest update in 2022.9).
-
 A new version will be released and some issues will be fixed.
 
 Real-time end-to-end CGH network with average PSNR more than 30dB in DIV2K valitaion dataset. Compared with HoloNet and holo-encoder, we achieve the fasted speed and the best quality using compact CCNN. Moreover, CCNN-CGH is the second 4K capable network and mini CCNN-CGH is the first 4K real-time network！The following tests run using RTX 3080.
@@ -25,7 +23,7 @@ Real-time end-to-end CGH network with average PSNR more than 30dB in DIV2K valit
   <img src="https://user-images.githubusercontent.com/57349703/179686183-ea2af19b-72f4-4ee3-9a60-84cf65800137.png" alt="4k" width='35%' height='35%'/>
 </p>
 
-**paper: now submitting.(If it's useful, consider cite our paper!)(Since it has not been accepted by any journal yet, papers based on our work should wait until its acceptance.)**
+**paper: Accepted by IEEE TVCG, coming soon.(If it's useful, consider cite our paper!)**
 
 ## 0. Contents
 
