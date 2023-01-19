@@ -59,6 +59,8 @@ Change the file path to DIV2K dataset.
 
 Run corresponding python files. CCNN uses 4init, mini CCNN uses 2init. 
 
+CCNN-CGH V1.5 is a reorganized version, and some issues are fixed.
+
 ## 3.Comparision with other networks
 
 - Comparision with HoloNet
@@ -83,8 +85,7 @@ Run corresponding python files. CCNN uses 4init, mini CCNN uses 2init.
 
 ## 4.Tips
 
-- 1, It is greatly recommended to use our zero-padding version directly. Because of better quality and easier experiment.
+- 1, It is greatly recommended to use zero-padding version directly because of better quality and easier experiment. However, more GPU memory is required.
 
 - 2, Try larger CCNN according to your GPU ability. Although more GPU memory is needed, more DS/US layers and more init channels will bring better quality easily. 
 
-- 3, CCNN-CGH V1.5 is a reorganized version, and some issues are fixed.
