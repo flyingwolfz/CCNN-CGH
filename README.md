@@ -6,8 +6,6 @@
 Real-time CGH using CCNN (zero-padding version)**
 </p>
 
-A new version will be released and some issues will be fixed.
-
 Real-time end-to-end CGH network with average PSNR more than 30dB in DIV2K valitaion dataset. Compared with HoloNet and holo-encoder, we achieve the fasted speed and the best quality using compact CCNN. Moreover, CCNN-CGH is the second 4K capable network and mini CCNN-CGH is the first 4K real-time network！The following tests run using RTX 3080.
  
 <p align="center">
@@ -37,7 +35,7 @@ Real-time end-to-end CGH network with average PSNR more than 30dB in DIV2K valit
 
 - 2,Captured results
 
-  including captured videos, images and corresponding CGHs
+  including captured videos, images and corresponding CGHs. If you have the same devices as ours, you can use the CGHs to reproduce our experiments. A guide for optical setup may be uploaded in the future.
 
 ## 1. Set up conda environment 
 
@@ -89,7 +87,4 @@ Run corresponding python files. CCNN uses 4init, mini CCNN uses 2init.
 
 - 2, Try larger CCNN according to your GPU ability. Although more GPU memory is needed, more DS/US layers and more init channels will bring better quality easily. 
 
-- 3, A new version will be uploaded soon, and some issues will be fixed.
-
-- 4, under updating......
-
+- 3, CCNN-CGH V1.5 is a reorganized version, and some issues are fixed.
