@@ -21,7 +21,7 @@ Real-time end-to-end CGH network with average PSNR more than 30dB in DIV2K valit
   <img src="https://user-images.githubusercontent.com/57349703/179686183-ea2af19b-72f4-4ee3-9a60-84cf65800137.png" alt="4k" width='35%' height='35%'/>
 </p>
 
-**paper: Accepted by IEEE TVCG, coming soon.(If it's useful, consider cite our paper!)**
+**paper: Accepted by IEEE TVCG, preprint coming soon.(If it's useful, consider cite our paper!)**
 
 ## 0. Contents
 
