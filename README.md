@@ -80,14 +80,16 @@ Run corresponding python files. CCNN uses 4init, mini CCNN uses 2init.
 - Comparision with tensor holography
 
   We run tensor holography in Ubuntu 20.04 using their code and pretrained model from https://github.com/liangs111/tensor_holography
+  
+  Matlab code is used for simulation. See ASM: https://github.com/flyingwolfz/angular-spectrum-method
 
 ## 4.Tips
 
-- 1, Use more epoch, we use 30 in this repository. If you have enough time, change it to 300 or more, and it will increase the PSNR by around 1-2dB easily. 
+- 1, It is greatly recommended to use our zero-padding version directly. Because of better quality and easier experiment.
 
-- 2, It is greatly recommended to use our zero-padding version directly. Because of better quality and easier experiment.
+- 2, Try larger CCNN according to your GPU ability. Although more GPU memory is needed, more DS/US layers and more init channels will bring better quality easily. 
 
-- 3, Try larger CCNN according to your GPU ability. Although more GPU memory is needed, more DS/US layers and more init channels will bring better quality easily. Meanwhile smaller CCNN still performes better than existing networks, reducing parameters also works if you want faster speed and lower cost.
+- 3, A new version will be uploaded soon, and some issues will be fixed.
 
 - 4, under updating......
 
