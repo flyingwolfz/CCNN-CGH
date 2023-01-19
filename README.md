@@ -49,7 +49,7 @@ pip install scipy
 pip install scikit-image
 ```             
 
-The environment has been tested in Windows 10 and Ubuntu 20.04 in 2022.7. We use python 3.9, Pytorch 1.10. opencv is used to operate images, other libraries are not essentional to run our model. This environment also supports HoloNet, Holo-encoder.
+The environment has been tested in Windows 10 and Ubuntu 20.04 in 2022.7. We use python 3.9, Pytorch 1.10. opencv is used to operate images, other libraries are not essentional to run our model. This environment also supports HoloNet, Holo-encoder. Newer versions of Pytorch may also work.
 
 ## 2. Run CCNN-CGH 
 
