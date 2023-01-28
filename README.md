@@ -55,7 +55,7 @@ The environment has been tested in Windows 10 and Ubuntu 20.04 in 2022.7. We use
 
 For better compatibility with complex values, we use an old version of complexPyTorch from https://github.com/wavefrontshaping/complexPyTorch. Their new version should also work.
 
-Change the file path to DIV2K dataset.
+Change the file path in the code.
 
 Run corresponding python files. CCNN uses 4init, mini CCNN uses 2init. 
 
