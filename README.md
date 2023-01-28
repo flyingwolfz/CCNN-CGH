@@ -6,7 +6,7 @@
 Real-time CGH using CCNN (zero-padding version)**
 </p>
 
-Real-time end-to-end CGH network with average PSNR more than 30dB in DIV2K valitaion dataset. Compared with HoloNet and holo-encoder, we achieve the fasted speed and the best quality using compact CCNN. Moreover, CCNN-CGH is the second 4K capable network and mini CCNN-CGH is the first 4K real-time network！The following tests run using RTX 3080.
+Real-time end-to-end CGH network with average PSNR more than 30dB in DIV2K valitaion dataset. Compared with HoloNet and holo-encoder, we achieve the fasted speed and the best quality using compact CCNN. Moreover, CCNN-CGH is the a 4K capable network and mini CCNN-CGH is the first 4K real-time network！The following tests run using RTX 3080.
  
 <p align="center">
 1920 performance
