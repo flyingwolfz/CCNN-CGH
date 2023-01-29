@@ -59,7 +59,7 @@ Change the file path in the code.
 
 Run corresponding python files. CCNN uses 4init, mini CCNN uses 2init. 
 
-CCNN-CGH V1.5 is a reorganized version, and some issues are fixed.
+**CCNN-CGH V1.5 is a reorganized version, and some issues are fixed.**
 
 ## 3.Comparision with other networks
 
