@@ -32,10 +32,12 @@ Real-time end-to-end CGH network with average PSNR more than 30dB in DIV2K valit
   xxxload.py will load trained model and test it on a single picture, return average generation time, PSNR, SSIM, simulated reconstruction.
 
   xxxpsnrssim.py will test the trained model using 100 samples of DIV2K validation dataset, return average PSNR, SSIM.
+  
+  **In reorganized codes, some issues are fixed.**
 
 - 2,Captured results
 
-  including captured videos, images and corresponding CGHs. If you have the same devices as ours, you can use the CGHs to reproduce our experiments. A guide for optical setup may be uploaded in the future.
+  including captured videos, images and corresponding CGHs. If you have the same devices as ours, you can use the CGHs to reproduce our experiments.
 
 ## 1. Set up conda environment 
 
@@ -59,15 +61,13 @@ Change the file path in the code.
 
 Run corresponding python files. CCNN uses 4init, mini CCNN uses 2init. 
 
-**CCNN-CGH V1.5 is a reorganized version, and some issues are fixed.**
-
 ## 3.Comparision with other networks
 
 - Comparision with HoloNet
 
   Before running HoloNet, make sure your GPU has more than 10GB memory.
 
-  HoloNet is from https://github.com/computational-imaging/neural-holography
+  HoloNet and some codes are from https://github.com/computational-imaging/neural-holography
 
   The U-Net used in HoloNet is from https://github.com/vsitzmann/pytorch_prototyping
 
@@ -75,7 +75,7 @@ Run corresponding python files. CCNN uses 4init, mini CCNN uses 2init.
 
   Holo-encoder is from:https://github.com/THUHoloLab/Holo-encoder
 
-  For pytorch version, refer to https://github.com/flyingwolfz/holoencoder-python-version
+  For pytorch version, we use https://github.com/flyingwolfz/holoencoder-python-version
 
 - Comparision with tensor holography
 
@@ -83,9 +83,5 @@ Run corresponding python files. CCNN uses 4init, mini CCNN uses 2init.
   
   Matlab code is used for simulation. See ASM: https://github.com/flyingwolfz/angular-spectrum-method
 
-## 4.Tips
 
-- 1, It is greatly recommended to use zero-padding version directly because of better quality and easier experiment. However, more GPU memory is required.
-
-- 2, Try larger CCNN according to your GPU ability. Although more GPU memory is needed, more DS/US layers and more init channels will bring better quality easily. 
 
