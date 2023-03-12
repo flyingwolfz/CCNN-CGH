@@ -33,7 +33,7 @@ Real-time end-to-end CGH network with average PSNR more than 30dB in DIV2K valit
 
   xxxpsnrssim.py will test the trained model using 100 samples of DIV2K validation dataset, return average PSNR, SSIM.
   
-  **In reorganized codes, some issues are fixed.**
+  **In reorganized codes, some issues are fixed. You can change the ASM version**
 
 - 2,Captured results
 
