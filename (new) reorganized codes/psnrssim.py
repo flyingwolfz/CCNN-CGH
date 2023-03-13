@@ -1,6 +1,6 @@
 import numpy
 from skimage.metrics import structural_similarity as ssim
-import oldmodel
+import model
 from propagation_ASM import *
 import tools
 def psnr(img1, img2):
@@ -30,11 +30,11 @@ Hforward = propagation_ASM(torch.empty(1, 1, n, m), feature_size=[pitch, pitch],
 Hforward = Hforward.cuda()
 
 if method=='ccnncgh':
-    net = oldmodel.ccnncgh()
+    net = model.ccnncgh()
 if method == 'holonet':
-    net = oldmodel.holonet()
+    net = model.holonet()
 if method=='holoencoder':
-    net = oldmodel.holoencoder()
+    net = model.holoencoder()
 pthname=method+'.pth'
 validpath='D:\\DIV2K_valid_HR'
 
