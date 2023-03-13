@@ -31,11 +31,11 @@ Hbackward = Hbackward.cuda()
 Hforward = Hforward.cuda()
 lr=0.001
 if method=='ccnncgh':
-    net = oldmodel.ccnncgh()
+    net = model.ccnncgh()
 if method == 'holonet':
-    net = oldmodel.holonet()
+    net = model.holonet()
 if method=='holoencoder':
-    net = oldmodel.holoencoder()
+    net = model.holoencoder()
 
 criterion = nn.MSELoss()
 net=net.cuda()
