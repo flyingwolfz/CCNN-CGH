@@ -4,7 +4,7 @@ import numpy
 from tqdm import trange
 import time
 from scipy import io
-import oldmodel
+import model
 from propagation_ASM import *
 import tools
 num=30
