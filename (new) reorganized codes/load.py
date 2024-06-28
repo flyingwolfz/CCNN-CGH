@@ -44,12 +44,9 @@ pthname=method+'.pth'
 validpath='D:\\DIV2K_valid_HR'
 
 net.load_state_dict(torch.load(pthname))
-net.cuda()
-input_image = tools.loadimage(path=validpath, image_index=testpic, channel=2, flip=0, m=m, n=n, convert=True)
-
-target_amp = torch.from_numpy(input_image)
-target_amp = target_amp.cuda()
-target_amp = torch.sqrt(target_amp)
+net=net.cuda()
+input_image = tools.loadimage(path=validpath, image_index=testpic, channel=2, flip=0, m=m, n=n, convert=True, cuda=True)
+target_amp = torch.sqrt(input_image)
 target_amp = target_amp.view(1, 1, n, m)
 target_amp = target_amp.float()
 
