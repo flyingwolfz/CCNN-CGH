@@ -39,7 +39,7 @@ pthname=method+'.pth'
 validpath='D:\\DIV2K_valid_HR'
 
 net.load_state_dict(torch.load(pthname))
-net.cuda()
+net=net.cuda()
 
 init_phase=torch.zeros(1,1,n,m)
 init_phase=init_phase.cuda()
